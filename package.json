@@ -1,0 +1,11 @@
+{
+  "name": "dropboxpusher",
+  "version": "1.0.0",
+  "description": "Pushes files to dropbox immediately after they're generated",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Traub",
+  "license": "ISC"
+}
