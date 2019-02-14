@@ -10,8 +10,6 @@ const path = require('path');
 const watcher = chokidar.watch(process.env.LOCAL_PATH, {ignored: /^\./, persistent: true});
 const fileList = {};
 
-
-
 watcher.on('add', (path) => {
     var splitPath = path.split("/");
     waiter(path, splitPath[splitPath.length - 1], true);
